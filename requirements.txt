@@ -1,0 +1,6 @@
+sqlalchemy
+flask_cors
+flask_restful
+pandas
+flask_socketio
+sklearn
