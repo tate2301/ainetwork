@@ -224,13 +224,11 @@ def startServer():
         emit('my_response', {'data': message['data']})
         print(message)
 
-
-    if __name__ == '__main__':
-        socketio.run(app, port=80, debug=True, host='0.0.0.0')
-
 if not os.path.isfile("classifier.model"):
     train_model.trainModel()
 
 importModel()
 startServer()
     
+if __name__ == '__main__':
+    socketio.run(app, port=80, debug=True, host='0.0.0.0')
