@@ -1,1 +1,3 @@
 .vercel
+classifier.model
+vector.weights

@@ -8,7 +8,7 @@ import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 # 0: reliable
 
 
-train = pd.read_csv('train.csv')
+train = pd.read_csv('')
 train.info()
 train = train.fillna(' leeg')
 train['total'] = train['author'] + train['text']
