@@ -4,3 +4,4 @@ flask_restful
 pandas
 flask_socketio
 sklearn
+gunicorn==19.9.0
